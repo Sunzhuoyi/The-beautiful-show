@@ -1,3 +1,3 @@
 # The-beautiful-show
-一个关于整容的交流展示社区
+一些展示等基本功能的demo
 微信小程序
