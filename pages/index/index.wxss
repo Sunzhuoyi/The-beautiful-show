@@ -1,0 +1,59 @@
+/**index.wxss**/
+.userinfo {
+  display: flex;
+  flex-direction: row;
+  align-items: row;
+  justify-content: flex-start;
+}
+
+.userinfo-avatar {
+  width: 80rpx;
+  height: 80rpx;
+  margin: 20rpx;
+display: flex;
+flex-direction: column;
+  border-radius: 50%;
+}
+.user-title{
+  display: flex;
+  flex-direction: column;
+}
+.user-pic {
+  width: 750rpx;
+  height: 500rpx;
+  margin: 20rpx 0rpx;
+}
+
+.userinfo-nickname {
+  color: #000;
+  font-size: 12px;
+  margin-top: 12px;
+}
+.userinfo-nicktime {
+  color: #aaa;
+  font-size: 12px;
+  margin-top: 12px;
+}
+
+
+.usermotto {
+  margin-top: 200px;
+}
+.bindlongtapone{
+  display: flex;
+  flex-direction: column;
+}
+.bindlongtaptwo{
+  display: flex;
+  flex-direction: column;
+}
+.user-share{
+  overflow: hidden;
+  width: 750rpx;
+  font-size: 14px;
+  color: #aaa
+}
+.user-share-content{
+  line-height: 1.2rem;
+  
+}
