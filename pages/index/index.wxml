@@ -1,23 +1,34 @@
 <!--index.wxml-->
 <view class="container">
+<view class="single-share">
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
     <view class="user-title">
     <span class="userinfo-nickname">{{userInfo.nickName}}</span>
   <span class="userinfo-nicktime">{{userInfo.nickName}}</span>
-  
     </view>
-    
   </view>
   <view class="user-share">
-  <span class="user-share-content">
+  <p class="user-share-content">
   做了双眼皮颜值就像开了挂，越来越喜欢自拍了，发现更美的自己！就是这酱紫。
-  </span>
+  </p>
   </view>
   
   <view  bindtap="bindViewTap" class="userinfo">
     <image class="user-pic" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
-   
+  </view>
+  <view class="jiaohu">
+  <p>
+  <image src="{{userInfo.avatarUrl}}" class="dianzan"></image>
+  <span class="number">6809</span>
+  </p>
+  <p>
+  <image src="{{userInfo.avatarUrl}}" class="dianzan"></image>
+  <span class="number">6809</span>
+  </p>
+  
+  </view>
+
   </view>
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
